@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .transitioned {
+        @apply transition-all duration-300
+    }
+
+    .centerd-y {
+        @apply top-1/2 -translate-y-1/2
+    }
+}

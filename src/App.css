@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Lateef', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::selection {
+    background-color: #ee9703;
+    color: white !important;
+}

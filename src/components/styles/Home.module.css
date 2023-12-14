@@ -1,0 +1,47 @@
+.navigation small::after {
+    position: absolute;
+    border-width: 8px;
+    right: 13px;
+    border-style: solid;
+    border-color: transparent transparent #ee9703 transparent;
+    top: -16px;
+}
+
+.navigation small {
+    padding: 5px 10px;
+    background: #ee9703;
+    pointer-events: none;
+}
+
+nav {
+    padding: 15px 25px;
+}
+
+.circle::before {
+    content: var(--tw-content);
+    width: 100%;
+    border: 3px solid #ffbe0b;
+    scale: 1.15;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    /* border-image: linear-gradient(90deg, #ee9703, transparent); */
+    border-image-slice: 1;
+    rotate: 45deg;
+    transition: all linear 0.7s;
+    animation: rotate infinite 13s alternate;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 45deg;
+    }
+
+    to {
+        rotate: 365deg;
+    }
+}
+
+.headin {
+    line-height: 1.2;
+}
